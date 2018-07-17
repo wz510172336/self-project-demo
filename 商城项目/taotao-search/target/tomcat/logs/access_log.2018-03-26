@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:23:57:02 +0800] "GET /search/solr/importAll HTTP/1.1" 200 48 http-bio-8084-exec-1 18635
+0:0:0:0:0:0:0:1 - - [26/Mar/2018:23:57:08 +0800] "GET /search/solr/importAll HTTP/1.1" 200 48 http-bio-8084-exec-2 18276

@@ -1,0 +1,802 @@
+2018-03-26 22:09:52  [ main:0 ] - [ DEBUG ]  Creating new http client, config:maxConnections=128&maxConnectionsPerHost=32&followRedirects=false
+2018-03-26 22:09:52  [ main:348 ] - [ DEBUG ]  Connection request: [route: {}->http://192.168.25.135:8080][total kept alive: 0; route allocated: 0 of 32; total allocated: 0 of 128]
+2018-03-26 22:09:52  [ main:356 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://192.168.25.135:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-03-26 22:09:52  [ main:358 ] - [ DEBUG ]  Connecting to 192.168.25.135:8080
+2018-03-26 22:09:52  [ main:394 ] - [ DEBUG ]  CookieSpec selected: best-match
+2018-03-26 22:09:52  [ main:401 ] - [ DEBUG ]  Auth cache not set in the context
+2018-03-26 22:09:52  [ main:401 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2018-03-26 22:09:52  [ main:402 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2018-03-26 22:09:52  [ main:402 ] - [ DEBUG ]  Attempt 1 to execute request
+2018-03-26 22:09:52  [ main:403 ] - [ DEBUG ]  Sending request: POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-03-26 22:09:52  [ main:403 ] - [ DEBUG ]   >> "POST /solr/update?wt=javabin&version=2 HTTP/1.1[\r][\n]"
+2018-03-26 22:09:52  [ main:404 ] - [ DEBUG ]   >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-03-26 22:09:52  [ main:405 ] - [ DEBUG ]   >> "Transfer-Encoding: chunked[\r][\n]"
+2018-03-26 22:09:52  [ main:405 ] - [ DEBUG ]   >> "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2018-03-26 22:09:52  [ main:406 ] - [ DEBUG ]   >> "Host: 192.168.25.135:8080[\r][\n]"
+2018-03-26 22:09:52  [ main:406 ] - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2018-03-26 22:09:52  [ main:407 ] - [ DEBUG ]   >> "[\r][\n]"
+2018-03-26 22:09:52  [ main:407 ] - [ DEBUG ]  >> POST /solr/update?wt=javabin&version=2 HTTP/1.1
+2018-03-26 22:09:52  [ main:407 ] - [ DEBUG ]  >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-03-26 22:09:52  [ main:408 ] - [ DEBUG ]  >> Transfer-Encoding: chunked
+2018-03-26 22:09:52  [ main:408 ] - [ DEBUG ]  >> Content-Type: application/xml; charset=UTF-8
+2018-03-26 22:09:52  [ main:408 ] - [ DEBUG ]  >> Host: 192.168.25.135:8080
+2018-03-26 22:09:52  [ main:409 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2018-03-26 22:09:52  [ main:409 ] - [ DEBUG ]   >> "5c[\r][\n]"
+2018-03-26 22:09:52  [ main:409 ] - [ DEBUG ]   >> "<add><doc boost="1.0"><field name="id">1405</field><field name="name">wz</field></doc></add>"
+2018-03-26 22:09:52  [ main:410 ] - [ DEBUG ]   >> "[\r][\n]"
+2018-03-26 22:09:52  [ main:410 ] - [ DEBUG ]   >> "0[\r][\n]"
+2018-03-26 22:09:52  [ main:410 ] - [ DEBUG ]   >> "[\r][\n]"
+2018-03-26 22:09:52  [ main:559 ] - [ DEBUG ]   << "HTTP/1.1 200 [\r][\n]"
+2018-03-26 22:09:52  [ main:561 ] - [ DEBUG ]   << "Content-Type: application/octet-stream[\r][\n]"
+2018-03-26 22:09:52  [ main:561 ] - [ DEBUG ]   << "Content-Length: 41[\r][\n]"
+2018-03-26 22:09:52  [ main:562 ] - [ DEBUG ]   << "Date: Mon, 26 Mar 2018 14:12:18 GMT[\r][\n]"
+2018-03-26 22:09:52  [ main:562 ] - [ DEBUG ]   << "[\r][\n]"
+2018-03-26 22:09:52  [ main:564 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 
+2018-03-26 22:09:52  [ main:565 ] - [ DEBUG ]  << HTTP/1.1 200 
+2018-03-26 22:09:52  [ main:565 ] - [ DEBUG ]  << Content-Type: application/octet-stream
+2018-03-26 22:09:52  [ main:565 ] - [ DEBUG ]  << Content-Length: 41
+2018-03-26 22:09:52  [ main:566 ] - [ DEBUG ]  << Date: Mon, 26 Mar 2018 14:12:18 GMT
+2018-03-26 22:09:52  [ main:569 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2018-03-26 22:09:52  [ main:580 ] - [ DEBUG ]   << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeW[0x8]"
+2018-03-26 22:09:52  [ main:582 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://192.168.25.135:8080] can be kept alive indefinitely
+2018-03-26 22:09:52  [ main:583 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://192.168.25.135:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-03-26 22:09:52  [ main:585 ] - [ DEBUG ]  Connection request: [route: {}->http://192.168.25.135:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-03-26 22:09:52  [ main:585 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://192.168.25.135:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-03-26 22:09:52  [ main:586 ] - [ DEBUG ]  Stale connection check
+2018-03-26 22:09:52  [ main:587 ] - [ DEBUG ]  CookieSpec selected: best-match
+2018-03-26 22:09:52  [ main:588 ] - [ DEBUG ]  Auth cache not set in the context
+2018-03-26 22:09:52  [ main:588 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2018-03-26 22:09:52  [ main:588 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2018-03-26 22:09:52  [ main:589 ] - [ DEBUG ]  Attempt 1 to execute request
+2018-03-26 22:09:52  [ main:589 ] - [ DEBUG ]  Sending request: POST /solr/update HTTP/1.1
+2018-03-26 22:09:52  [ main:589 ] - [ DEBUG ]   >> "POST /solr/update HTTP/1.1[\r][\n]"
+2018-03-26 22:09:52  [ main:590 ] - [ DEBUG ]   >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2018-03-26 22:09:52  [ main:590 ] - [ DEBUG ]   >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-03-26 22:09:52  [ main:590 ] - [ DEBUG ]   >> "Content-Length: 67[\r][\n]"
+2018-03-26 22:09:52  [ main:591 ] - [ DEBUG ]   >> "Host: 192.168.25.135:8080[\r][\n]"
+2018-03-26 22:09:52  [ main:591 ] - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2018-03-26 22:09:52  [ main:591 ] - [ DEBUG ]   >> "[\r][\n]"
+2018-03-26 22:09:52  [ main:591 ] - [ DEBUG ]  >> POST /solr/update HTTP/1.1
+2018-03-26 22:09:52  [ main:592 ] - [ DEBUG ]  >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2018-03-26 22:09:52  [ main:592 ] - [ DEBUG ]  >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-03-26 22:09:52  [ main:592 ] - [ DEBUG ]  >> Content-Length: 67
+2018-03-26 22:09:52  [ main:593 ] - [ DEBUG ]  >> Host: 192.168.25.135:8080
+2018-03-26 22:09:52  [ main:593 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2018-03-26 22:09:52  [ main:593 ] - [ DEBUG ]   >> "commit=true&softCommit=false&waitSearcher=true&wt=javabin&version=2"
+2018-03-26 22:09:53  [ main:976 ] - [ DEBUG ]   << "HTTP/1.1 200 [\r][\n]"
+2018-03-26 22:09:53  [ main:977 ] - [ DEBUG ]   << "Content-Type: application/octet-stream[\r][\n]"
+2018-03-26 22:09:53  [ main:977 ] - [ DEBUG ]   << "Content-Length: 41[\r][\n]"
+2018-03-26 22:09:53  [ main:977 ] - [ DEBUG ]   << "Date: Mon, 26 Mar 2018 14:12:18 GMT[\r][\n]"
+2018-03-26 22:09:53  [ main:978 ] - [ DEBUG ]   << "[\r][\n]"
+2018-03-26 22:09:53  [ main:978 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 
+2018-03-26 22:09:53  [ main:978 ] - [ DEBUG ]  << HTTP/1.1 200 
+2018-03-26 22:09:53  [ main:979 ] - [ DEBUG ]  << Content-Type: application/octet-stream
+2018-03-26 22:09:53  [ main:979 ] - [ DEBUG ]  << Content-Length: 41
+2018-03-26 22:09:53  [ main:979 ] - [ DEBUG ]  << Date: Mon, 26 Mar 2018 14:12:18 GMT
+2018-03-26 22:09:53  [ main:979 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2018-03-26 22:09:53  [ main:980 ] - [ DEBUG ]   << "[0x2][0xa1][0xe0].responseHeader[0xa2][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeU[0x17]"
+2018-03-26 22:09:53  [ main:980 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://192.168.25.135:8080] can be kept alive indefinitely
+2018-03-26 22:09:53  [ main:980 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://192.168.25.135:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-03-26 22:09:53  [ main:981 ] - [ DEBUG ]  Creating new http client, config:maxConnections=128&maxConnectionsPerHost=32&followRedirects=false
+2018-03-26 22:09:53  [ main:984 ] - [ DEBUG ]  Connection request: [route: {}->http://192.168.25.135:8080][total kept alive: 0; route allocated: 0 of 32; total allocated: 0 of 128]
+2018-03-26 22:09:53  [ main:985 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://192.168.25.135:8080][total kept alive: 0; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-03-26 22:09:53  [ main:985 ] - [ DEBUG ]  Connecting to 192.168.25.135:8080
+2018-03-26 22:09:53  [ main:987 ] - [ DEBUG ]  CookieSpec selected: best-match
+2018-03-26 22:09:53  [ main:987 ] - [ DEBUG ]  Auth cache not set in the context
+2018-03-26 22:09:53  [ main:987 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2018-03-26 22:09:53  [ main:988 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2018-03-26 22:09:53  [ main:988 ] - [ DEBUG ]  Attempt 1 to execute request
+2018-03-26 22:09:53  [ main:988 ] - [ DEBUG ]  Sending request: GET /solr/select?wt=javabin&version=2 HTTP/1.1
+2018-03-26 22:09:53  [ main:989 ] - [ DEBUG ]   >> "GET /solr/select?wt=javabin&version=2 HTTP/1.1[\r][\n]"
+2018-03-26 22:09:53  [ main:989 ] - [ DEBUG ]   >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2018-03-26 22:09:53  [ main:989 ] - [ DEBUG ]   >> "Host: 192.168.25.135:8080[\r][\n]"
+2018-03-26 22:09:53  [ main:989 ] - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2018-03-26 22:09:53  [ main:990 ] - [ DEBUG ]   >> "[\r][\n]"
+2018-03-26 22:09:53  [ main:990 ] - [ DEBUG ]  >> GET /solr/select?wt=javabin&version=2 HTTP/1.1
+2018-03-26 22:09:53  [ main:990 ] - [ DEBUG ]  >> User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0
+2018-03-26 22:09:53  [ main:990 ] - [ DEBUG ]  >> Host: 192.168.25.135:8080
+2018-03-26 22:09:53  [ main:991 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2018-03-26 22:09:53  [ main:1001 ] - [ DEBUG ]   << "HTTP/1.1 200 [\r][\n]"
+2018-03-26 22:09:53  [ main:1002 ] - [ DEBUG ]   << "Content-Type: application/octet-stream[\r][\n]"
+2018-03-26 22:09:53  [ main:1002 ] - [ DEBUG ]   << "Content-Length: 88[\r][\n]"
+2018-03-26 22:09:53  [ main:1002 ] - [ DEBUG ]   << "Date: Mon, 26 Mar 2018 14:12:18 GMT[\r][\n]"
+2018-03-26 22:09:53  [ main:1003 ] - [ DEBUG ]   << "[\r][\n]"
+2018-03-26 22:09:53  [ main:1003 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 
+2018-03-26 22:09:53  [ main:1003 ] - [ DEBUG ]  << HTTP/1.1 200 
+2018-03-26 22:09:53  [ main:1003 ] - [ DEBUG ]  << Content-Type: application/octet-stream
+2018-03-26 22:09:53  [ main:1004 ] - [ DEBUG ]  << Content-Length: 88
+2018-03-26 22:09:53  [ main:1004 ] - [ DEBUG ]  << Date: Mon, 26 Mar 2018 14:12:18 GMT
+2018-03-26 22:09:53  [ main:1004 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2018-03-26 22:09:53  [ main:1005 ] - [ DEBUG ]   << "[0x2][0xa2][0xe0].responseHeader[0xa3][0xe0]&status[0x6][0x0][0x0][0x0][0x0][0xe0]%QTimeA[0xe0]&params[0xa2][0xe0]"wt'javabin[0xe0]'version!2[0xe0](response[0xc][0x83]``[0x0][0x80]"
+2018-03-26 22:09:53  [ main:1005 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://192.168.25.135:8080] can be kept alive indefinitely
+2018-03-26 22:09:53  [ main:1006 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://192.168.25.135:8080][total kept alive: 1; route allocated: 1 of 32; total allocated: 1 of 128]
+2018-03-26 22:14:20  [ localhost-startStop-1:0 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2018-03-26 22:14:20  [ localhost-startStop-1:35 ] - [ DEBUG ]  Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2018-03-26 22:14:20  [ localhost-startStop-1:36 ] - [ DEBUG ]  Adding [servletContextInitParams] PropertySource with lowest search precedence
+2018-03-26 22:14:20  [ localhost-startStop-1:40 ] - [ DEBUG ]  Adding [jndiProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:20  [ localhost-startStop-1:41 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:20  [ localhost-startStop-1:41 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-03-26 22:14:20  [ localhost-startStop-1:42 ] - [ DEBUG ]  Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2018-03-26 22:14:20  [ localhost-startStop-1:45 ] - [ DEBUG ]  Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2018-03-26 22:14:20  [ localhost-startStop-1:45 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Mar 26 22:14:20 CST 2018]; root of context hierarchy
+2018-03-26 22:14:20  [ localhost-startStop-1:68 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:20  [ localhost-startStop-1:69 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-03-26 22:14:20  [ localhost-startStop-1:69 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-03-26 22:14:20  [ localhost-startStop-1:74 ] - [ DEBUG ]  Looking for matching resources in directory tree [D:\eclipse\workspace\taotao-search\target\classes\spring]
+2018-03-26 22:14:20  [ localhost-startStop-1:74 ] - [ DEBUG ]  Searching directory [D:\eclipse\workspace\taotao-search\target\classes\spring] for files matching pattern [D:/eclipse/workspace/taotao-search/target/classes/spring/applicationContext*.xml]
+2018-03-26 22:14:20  [ localhost-startStop-1:77 ] - [ DEBUG ]  Resolved location pattern [classpath:spring/applicationContext*.xml] to resources [file [D:\eclipse\workspace\taotao-search\target\classes\spring\applicationContext-dao.xml], file [D:\eclipse\workspace\taotao-search\target\classes\spring\applicationContext-service.xml], file [D:\eclipse\workspace\taotao-search\target\classes\spring\applicationContext-trans.xml]]
+2018-03-26 22:14:20  [ localhost-startStop-1:77 ] - [ INFO ]  Loading XML bean definitions from file [D:\eclipse\workspace\taotao-search\target\classes\spring\applicationContext-dao.xml]
+2018-03-26 22:14:20  [ localhost-startStop-1:81 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-03-26 22:14:20  [ localhost-startStop-1:104 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2018-03-26 22:14:20  [ localhost-startStop-1:107 ] - [ DEBUG ]  Loaded schema mappings: {http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2018-03-26 22:14:21  [ localhost-startStop-1:1042 ] - [ DEBUG ]  Loading bean definitions
+2018-03-26 22:14:21  [ localhost-startStop-1:1283 ] - [ DEBUG ]  Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-03-26 22:14:21  [ localhost-startStop-1:1297 ] - [ DEBUG ]  Neither XML 'id' nor 'name' specified - using generated bean name [org.mybatis.spring.mapper.MapperScannerConfigurer#0]
+2018-03-26 22:14:21  [ localhost-startStop-1:1298 ] - [ INFO ]  Loading XML bean definitions from file [D:\eclipse\workspace\taotao-search\target\classes\spring\applicationContext-service.xml]
+2018-03-26 22:14:21  [ localhost-startStop-1:1299 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-03-26 22:14:22  [ localhost-startStop-1:1560 ] - [ DEBUG ]  Loading bean definitions
+2018-03-26 22:14:22  [ localhost-startStop-1:1573 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:22  [ localhost-startStop-1:1574 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-03-26 22:14:22  [ localhost-startStop-1:1574 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-03-26 22:14:22  [ localhost-startStop-1:1578 ] - [ DEBUG ]  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2018-03-26 22:14:22  [ localhost-startStop-1:1578 ] - [ DEBUG ]  JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2018-03-26 22:14:22  [ localhost-startStop-1:1581 ] - [ DEBUG ]  Looking for matching resources in directory tree [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\service]
+2018-03-26 22:14:22  [ localhost-startStop-1:1581 ] - [ DEBUG ]  Searching directory [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\service] for files matching pattern [D:/eclipse/workspace/taotao-search/target/classes/com/taotao/search/service/**/*.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:1582 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/taotao/search/service/**/*.class] to resources [file [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\service\ItemService.class], file [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\service\ItemServiceImpl.class]]
+2018-03-26 22:14:22  [ localhost-startStop-1:1602 ] - [ DEBUG ]  Identified candidate component class: file [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\service\ItemServiceImpl.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:1604 ] - [ INFO ]  Loading XML bean definitions from file [D:\eclipse\workspace\taotao-search\target\classes\spring\applicationContext-trans.xml]
+2018-03-26 22:14:22  [ localhost-startStop-1:1606 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-03-26 22:14:22  [ localhost-startStop-1:1885 ] - [ DEBUG ]  Loading bean definitions
+2018-03-26 22:14:22  [ localhost-startStop-1:1901 ] - [ DEBUG ]  Loaded 14 bean definitions from location pattern [classpath:spring/applicationContext*.xml]
+2018-03-26 22:14:22  [ localhost-startStop-1:1902 ] - [ DEBUG ]  Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@641683d0: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,itemServiceImpl,httpSolrServer,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0]; root of factory hierarchy
+2018-03-26 22:14:22  [ localhost-startStop-1:1936 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:1936 ] - [ DEBUG ]  Creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:1946 ] - [ DEBUG ]  Eagerly caching bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:1996 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:1997 ] - [ DEBUG ]  Finished creating instance of bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:1997 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:1998 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:1999 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:1999 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2026 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:22  [ localhost-startStop-1:2027 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-03-26 22:14:22  [ localhost-startStop-1:2027 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-03-26 22:14:22  [ localhost-startStop-1:2029 ] - [ DEBUG ]  Looking for matching resources in jar file [file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar]
+2018-03-26 22:14:22  [ localhost-startStop-1:2030 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/taotao/mapper/**/*.class] to resources [URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbContentCategoryMapper.class], URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbContentMapper.class], URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbItemCatMapper.class], URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbItemDescMapper.class], URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbItemMapper.class], URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbItemParamItemMapper.class], URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbItemParamMapper.class], URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbOrderItemMapper.class], URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbOrderMapper.class], URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbOrderShippingMapper.class], URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbUserMapper.class]]
+2018-03-26 22:14:22  [ localhost-startStop-1:2031 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbContentCategoryMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2032 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbContentMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2033 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbItemCatMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2033 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbItemDescMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2034 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbItemMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2035 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbItemParamItemMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2036 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbItemParamMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2037 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbOrderItemMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2038 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbOrderMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2039 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbOrderShippingMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2039 ] - [ DEBUG ]  Identified candidate component class: URL [jar:file:/F:/m2/repository/com/taotao/taotao-manager-dao/0.0.1-SNAPSHOT/taotao-manager-dao-0.0.1-SNAPSHOT.jar!/com/taotao/mapper/TbUserMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2040 ] - [ DEBUG ]  Looking for matching resources in directory tree [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\mapper]
+2018-03-26 22:14:22  [ localhost-startStop-1:2041 ] - [ DEBUG ]  Searching directory [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\mapper] for files matching pattern [D:/eclipse/workspace/taotao-search/target/classes/com/taotao/search/mapper/**/*.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2041 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/taotao/search/mapper/**/*.class] to resources [file [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\mapper\ItemMapper.class]]
+2018-03-26 22:14:22  [ localhost-startStop-1:2042 ] - [ DEBUG ]  Identified candidate component class: file [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\mapper\ItemMapper.class]
+2018-03-26 22:14:22  [ localhost-startStop-1:2043 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbContentCategoryMapper' and 'com.taotao.mapper.TbContentCategoryMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2044 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbContentCategoryMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2044 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbContentMapper' and 'com.taotao.mapper.TbContentMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2044 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbContentMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2045 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbItemCatMapper' and 'com.taotao.mapper.TbItemCatMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2045 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbItemCatMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2045 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbItemDescMapper' and 'com.taotao.mapper.TbItemDescMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2046 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbItemDescMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2046 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbItemMapper' and 'com.taotao.mapper.TbItemMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2046 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbItemMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2047 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbItemParamItemMapper' and 'com.taotao.mapper.TbItemParamItemMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2047 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbItemParamItemMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2047 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbItemParamMapper' and 'com.taotao.mapper.TbItemParamMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2047 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbItemParamMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2048 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbOrderItemMapper' and 'com.taotao.mapper.TbOrderItemMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2048 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbOrderItemMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2048 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbOrderMapper' and 'com.taotao.mapper.TbOrderMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2048 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbOrderMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2049 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbOrderShippingMapper' and 'com.taotao.mapper.TbOrderShippingMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2049 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbOrderShippingMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2049 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'tbUserMapper' and 'com.taotao.mapper.TbUserMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2050 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'tbUserMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2050 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'itemMapper' and 'com.taotao.search.mapper.ItemMapper' mapperInterface
+2018-03-26 22:14:22  [ localhost-startStop-1:2050 ] - [ DEBUG ]  Enabling autowire by type for MapperFactoryBean with name 'itemMapper'.
+2018-03-26 22:14:22  [ localhost-startStop-1:2051 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2052 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2053 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2058 ] - [ DEBUG ]  Looking for matching resources in directory tree [D:\eclipse\workspace\taotao-search\target\classes\properties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2059 ] - [ DEBUG ]  Searching directory [D:\eclipse\workspace\taotao-search\target\classes\properties] for files matching pattern [D:/eclipse/workspace/taotao-search/target/classes/properties/*.properties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2060 ] - [ DEBUG ]  Resolved location pattern [classpath:properties/*.properties] to resources [file [D:\eclipse\workspace\taotao-search\target\classes\properties\db.properties], file [D:\eclipse\workspace\taotao-search\target\classes\properties\resource.properties]]
+2018-03-26 22:14:22  [ localhost-startStop-1:2060 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2061 ] - [ DEBUG ]  Adding [environmentProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:22  [ localhost-startStop-1:2061 ] - [ INFO ]  Loading properties file from file [D:\eclipse\workspace\taotao-search\target\classes\properties\db.properties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2062 ] - [ INFO ]  Loading properties file from file [D:\eclipse\workspace\taotao-search\target\classes\properties\resource.properties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2063 ] - [ DEBUG ]  Adding [localProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:22  [ localhost-startStop-1:2064 ] - [ DEBUG ]  Searching for key 'jdbc.driver1' in [environmentProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2065 ] - [ DEBUG ]  Searching for key 'jdbc.driver1' in [servletConfigInitParams]
+2018-03-26 22:14:22  [ localhost-startStop-1:2065 ] - [ DEBUG ]  Searching for key 'jdbc.driver1' in [servletContextInitParams]
+2018-03-26 22:14:22  [ localhost-startStop-1:2066 ] - [ DEBUG ]  Searching for key 'jdbc.driver1' in [jndiProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2066 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/jdbc.driver1]
+2018-03-26 22:14:22  [ localhost-startStop-1:2067 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/jdbc.driver1] not found - trying original name [jdbc.driver1]. javax.naming.NameNotFoundException: Name [jdbc.driver1] is not bound in this Context. Unable to find [jdbc.driver1].
+2018-03-26 22:14:22  [ localhost-startStop-1:2068 ] - [ DEBUG ]  Looking up JNDI object with name [jdbc.driver1]
+2018-03-26 22:14:22  [ localhost-startStop-1:2068 ] - [ DEBUG ]  JNDI lookup for name [jdbc.driver1] threw NamingException with message: Name [jdbc.driver1] is not bound in this Context. Unable to find [jdbc.driver1].. Returning null.
+2018-03-26 22:14:22  [ localhost-startStop-1:2069 ] - [ DEBUG ]  Searching for key 'jdbc.driver1' in [systemProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2069 ] - [ DEBUG ]  Searching for key 'jdbc.driver1' in [systemEnvironment]
+2018-03-26 22:14:22  [ localhost-startStop-1:2069 ] - [ DEBUG ]  Could not find key 'jdbc.driver1' in any property source. Returning [null]
+2018-03-26 22:14:22  [ localhost-startStop-1:2070 ] - [ DEBUG ]  Searching for key 'jdbc.driver1' in [localProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2070 ] - [ DEBUG ]  Found key 'jdbc.driver1' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver'
+2018-03-26 22:14:22  [ localhost-startStop-1:2072 ] - [ DEBUG ]  Searching for key 'jdbc.url1' in [environmentProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2072 ] - [ DEBUG ]  Searching for key 'jdbc.url1' in [servletConfigInitParams]
+2018-03-26 22:14:22  [ localhost-startStop-1:2072 ] - [ DEBUG ]  Searching for key 'jdbc.url1' in [servletContextInitParams]
+2018-03-26 22:14:22  [ localhost-startStop-1:2072 ] - [ DEBUG ]  Searching for key 'jdbc.url1' in [jndiProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2073 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/jdbc.url1]
+2018-03-26 22:14:22  [ localhost-startStop-1:2073 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/jdbc.url1] not found - trying original name [jdbc.url1]. javax.naming.NameNotFoundException: Name [jdbc.url1] is not bound in this Context. Unable to find [jdbc.url1].
+2018-03-26 22:14:22  [ localhost-startStop-1:2073 ] - [ DEBUG ]  Looking up JNDI object with name [jdbc.url1]
+2018-03-26 22:14:22  [ localhost-startStop-1:2074 ] - [ DEBUG ]  JNDI lookup for name [jdbc.url1] threw NamingException with message: Name [jdbc.url1] is not bound in this Context. Unable to find [jdbc.url1].. Returning null.
+2018-03-26 22:14:22  [ localhost-startStop-1:2074 ] - [ DEBUG ]  Searching for key 'jdbc.url1' in [systemProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2074 ] - [ DEBUG ]  Searching for key 'jdbc.url1' in [systemEnvironment]
+2018-03-26 22:14:22  [ localhost-startStop-1:2075 ] - [ DEBUG ]  Could not find key 'jdbc.url1' in any property source. Returning [null]
+2018-03-26 22:14:22  [ localhost-startStop-1:2075 ] - [ DEBUG ]  Searching for key 'jdbc.url1' in [localProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2075 ] - [ DEBUG ]  Found key 'jdbc.url1' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/taotao?characterEncoding=utf-8'
+2018-03-26 22:14:22  [ localhost-startStop-1:2076 ] - [ DEBUG ]  Searching for key 'jdbc.username1' in [environmentProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2076 ] - [ DEBUG ]  Searching for key 'jdbc.username1' in [servletConfigInitParams]
+2018-03-26 22:14:22  [ localhost-startStop-1:2076 ] - [ DEBUG ]  Searching for key 'jdbc.username1' in [servletContextInitParams]
+2018-03-26 22:14:22  [ localhost-startStop-1:2076 ] - [ DEBUG ]  Searching for key 'jdbc.username1' in [jndiProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2077 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/jdbc.username1]
+2018-03-26 22:14:22  [ localhost-startStop-1:2077 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/jdbc.username1] not found - trying original name [jdbc.username1]. javax.naming.NameNotFoundException: Name [jdbc.username1] is not bound in this Context. Unable to find [jdbc.username1].
+2018-03-26 22:14:22  [ localhost-startStop-1:2077 ] - [ DEBUG ]  Looking up JNDI object with name [jdbc.username1]
+2018-03-26 22:14:22  [ localhost-startStop-1:2078 ] - [ DEBUG ]  JNDI lookup for name [jdbc.username1] threw NamingException with message: Name [jdbc.username1] is not bound in this Context. Unable to find [jdbc.username1].. Returning null.
+2018-03-26 22:14:22  [ localhost-startStop-1:2078 ] - [ DEBUG ]  Searching for key 'jdbc.username1' in [systemProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2078 ] - [ DEBUG ]  Searching for key 'jdbc.username1' in [systemEnvironment]
+2018-03-26 22:14:22  [ localhost-startStop-1:2079 ] - [ DEBUG ]  Could not find key 'jdbc.username1' in any property source. Returning [null]
+2018-03-26 22:14:22  [ localhost-startStop-1:2079 ] - [ DEBUG ]  Searching for key 'jdbc.username1' in [localProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2079 ] - [ DEBUG ]  Found key 'jdbc.username1' in [localProperties] with type [String] and value 'root'
+2018-03-26 22:14:22  [ localhost-startStop-1:2079 ] - [ DEBUG ]  Searching for key 'jdbc.password1' in [environmentProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2080 ] - [ DEBUG ]  Searching for key 'jdbc.password1' in [servletConfigInitParams]
+2018-03-26 22:14:22  [ localhost-startStop-1:2080 ] - [ DEBUG ]  Searching for key 'jdbc.password1' in [servletContextInitParams]
+2018-03-26 22:14:22  [ localhost-startStop-1:2080 ] - [ DEBUG ]  Searching for key 'jdbc.password1' in [jndiProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2081 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/jdbc.password1]
+2018-03-26 22:14:22  [ localhost-startStop-1:2081 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/jdbc.password1] not found - trying original name [jdbc.password1]. javax.naming.NameNotFoundException: Name [jdbc.password1] is not bound in this Context. Unable to find [jdbc.password1].
+2018-03-26 22:14:22  [ localhost-startStop-1:2081 ] - [ DEBUG ]  Looking up JNDI object with name [jdbc.password1]
+2018-03-26 22:14:22  [ localhost-startStop-1:2082 ] - [ DEBUG ]  JNDI lookup for name [jdbc.password1] threw NamingException with message: Name [jdbc.password1] is not bound in this Context. Unable to find [jdbc.password1].. Returning null.
+2018-03-26 22:14:22  [ localhost-startStop-1:2082 ] - [ DEBUG ]  Searching for key 'jdbc.password1' in [systemProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2082 ] - [ DEBUG ]  Searching for key 'jdbc.password1' in [systemEnvironment]
+2018-03-26 22:14:22  [ localhost-startStop-1:2082 ] - [ DEBUG ]  Could not find key 'jdbc.password1' in any property source. Returning [null]
+2018-03-26 22:14:22  [ localhost-startStop-1:2083 ] - [ DEBUG ]  Searching for key 'jdbc.password1' in [localProperties]
+2018-03-26 22:14:22  [ localhost-startStop-1:2083 ] - [ DEBUG ]  Found key 'jdbc.password1' in [localProperties] with type [String] and value 'root'
+2018-03-26 22:14:22  [ localhost-startStop-1:2085 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2085 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2086 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-26 22:14:22  [ localhost-startStop-1:2086 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2087 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2087 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2087 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2088 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2088 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2088 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2089 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2090 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2090 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2091 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2091 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2091 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2091 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2092 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-03-26 22:14:22  [ localhost-startStop-1:2092 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-03-26 22:14:22  [ localhost-startStop-1:2097 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2103 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-03-26 22:14:22  [ localhost-startStop-1:2105 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@4106aef2]
+2018-03-26 22:14:22  [ localhost-startStop-1:2106 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2ba2bd29]
+2018-03-26 22:14:22  [ localhost-startStop-1:2108 ] - [ DEBUG ]  Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@7cdb3f7a]
+2018-03-26 22:14:22  [ localhost-startStop-1:2110 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@641683d0: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,itemServiceImpl,httpSolrServer,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,tbContentCategoryMapper,tbContentMapper,tbItemCatMapper,tbItemDescMapper,tbItemMapper,tbItemParamItemMapper,tbItemParamMapper,tbOrderItemMapper,tbOrderMapper,tbOrderShippingMapper,tbUserMapper,itemMapper]; root of factory hierarchy
+2018-03-26 22:14:22  [ localhost-startStop-1:2110 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2111 ] - [ DEBUG ]  Creating shared instance of singleton bean 'dataSource'
+2018-03-26 22:14:22  [ localhost-startStop-1:2111 ] - [ DEBUG ]  Creating instance of bean 'dataSource'
+2018-03-26 22:14:22  [ localhost-startStop-1:2112 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2112 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2113 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2117 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#47937f90'
+2018-03-26 22:14:22  [ localhost-startStop-1:2128 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#47937f90'
+2018-03-26 22:14:22  [ localhost-startStop-1:2129 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2147 ] - [ DEBUG ]  Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2162 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2163 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2296 ] - [ DEBUG ]  Finished creating instance of bean 'dataSource'
+2018-03-26 22:14:22  [ localhost-startStop-1:2297 ] - [ DEBUG ]  Creating shared instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:22  [ localhost-startStop-1:2297 ] - [ DEBUG ]  Creating instance of bean 'sqlSessionFactory'
+2018-03-26 22:14:22  [ localhost-startStop-1:2298 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2308 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-03-26 22:14:22  [ localhost-startStop-1:2311 ] - [ DEBUG ]  Eagerly caching bean 'sqlSessionFactory' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2313 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2018-03-26 22:14:22  [ localhost-startStop-1:2314 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'sqlSessionFactory'
+2018-03-26 22:14:22  [ localhost-startStop-1:2361 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [mybatis/sqlMapConfig.xml]'
+2018-03-26 22:14:22  [ localhost-startStop-1:2362 ] - [ DEBUG ]  Property 'mapperLocations' was not specified or no matching resources found
+2018-03-26 22:14:22  [ localhost-startStop-1:2363 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2363 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2366 ] - [ DEBUG ]  Finished creating instance of bean 'sqlSessionFactory'
+2018-03-26 22:14:22  [ localhost-startStop-1:2366 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2367 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2367 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2367 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2368 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-03-26 22:14:22  [ localhost-startStop-1:2368 ] - [ DEBUG ]  Creating shared instance of singleton bean 'itemServiceImpl'
+2018-03-26 22:14:22  [ localhost-startStop-1:2368 ] - [ DEBUG ]  Creating instance of bean 'itemServiceImpl'
+2018-03-26 22:14:22  [ localhost-startStop-1:2368 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2373 ] - [ DEBUG ]  Registered injected element on class [com.taotao.search.service.ItemServiceImpl]: AutowiredFieldElement for private com.taotao.search.mapper.ItemMapper com.taotao.search.service.ItemServiceImpl.itemMapper
+2018-03-26 22:14:22  [ localhost-startStop-1:2373 ] - [ DEBUG ]  Registered injected element on class [com.taotao.search.service.ItemServiceImpl]: AutowiredFieldElement for private org.apache.solr.client.solrj.impl.HttpSolrServer com.taotao.search.service.ItemServiceImpl.httpSolrServer
+2018-03-26 22:14:22  [ localhost-startStop-1:2373 ] - [ DEBUG ]  Eagerly caching bean 'itemServiceImpl' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2375 ] - [ DEBUG ]  Processing injected element of bean 'itemServiceImpl': AutowiredFieldElement for private com.taotao.search.mapper.ItemMapper com.taotao.search.service.ItemServiceImpl.itemMapper
+2018-03-26 22:14:22  [ localhost-startStop-1:2376 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2377 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbContentCategoryMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2377 ] - [ DEBUG ]  Creating instance of bean 'tbContentCategoryMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2378 ] - [ DEBUG ]  Eagerly caching bean 'tbContentCategoryMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2382 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2382 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbContentMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2383 ] - [ DEBUG ]  Creating instance of bean 'tbContentMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2383 ] - [ DEBUG ]  Eagerly caching bean 'tbContentMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2383 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2384 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbItemCatMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2384 ] - [ DEBUG ]  Creating instance of bean 'tbItemCatMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2384 ] - [ DEBUG ]  Eagerly caching bean 'tbItemCatMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2385 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2385 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbItemDescMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2386 ] - [ DEBUG ]  Creating instance of bean 'tbItemDescMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2386 ] - [ DEBUG ]  Eagerly caching bean 'tbItemDescMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2387 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2387 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbItemMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2387 ] - [ DEBUG ]  Creating instance of bean 'tbItemMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2388 ] - [ DEBUG ]  Eagerly caching bean 'tbItemMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2388 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2389 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbItemParamItemMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2389 ] - [ DEBUG ]  Creating instance of bean 'tbItemParamItemMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2389 ] - [ DEBUG ]  Eagerly caching bean 'tbItemParamItemMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2390 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2390 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbItemParamMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2391 ] - [ DEBUG ]  Creating instance of bean 'tbItemParamMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2391 ] - [ DEBUG ]  Eagerly caching bean 'tbItemParamMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2392 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2392 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbOrderItemMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2393 ] - [ DEBUG ]  Creating instance of bean 'tbOrderItemMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2393 ] - [ DEBUG ]  Eagerly caching bean 'tbOrderItemMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2394 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2394 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbOrderMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2395 ] - [ DEBUG ]  Creating instance of bean 'tbOrderMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2395 ] - [ DEBUG ]  Eagerly caching bean 'tbOrderMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2396 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2396 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbOrderShippingMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2397 ] - [ DEBUG ]  Creating instance of bean 'tbOrderShippingMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2397 ] - [ DEBUG ]  Eagerly caching bean 'tbOrderShippingMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2398 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2398 ] - [ DEBUG ]  Creating shared instance of singleton bean 'tbUserMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2399 ] - [ DEBUG ]  Creating instance of bean 'tbUserMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2399 ] - [ DEBUG ]  Eagerly caching bean 'tbUserMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2400 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2401 ] - [ DEBUG ]  Creating shared instance of singleton bean 'itemMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2401 ] - [ DEBUG ]  Creating instance of bean 'itemMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2402 ] - [ DEBUG ]  Eagerly caching bean 'itemMapper' to allow for resolving potential circular references
+2018-03-26 22:14:22  [ localhost-startStop-1:2402 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:22  [ localhost-startStop-1:2403 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2403 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2406 ] - [ DEBUG ]  Autowiring by type from bean name 'itemMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:22  [ localhost-startStop-1:2411 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'itemMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2417 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2417 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:22  [ localhost-startStop-1:2419 ] - [ DEBUG ]  Finished creating instance of bean 'itemMapper'
+2018-03-26 22:14:22  [ localhost-startStop-1:2420 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:22  [ localhost-startStop-1:2420 ] - [ DEBUG ]  Autowiring by type from bean name 'tbUserMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:22  [ localhost-startStop-1:2423 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbUserMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2475 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2476 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2476 ] - [ DEBUG ]  Finished creating instance of bean 'tbUserMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2477 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2477 ] - [ DEBUG ]  Autowiring by type from bean name 'tbOrderShippingMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2478 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbOrderShippingMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2493 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2493 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2494 ] - [ DEBUG ]  Finished creating instance of bean 'tbOrderShippingMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2495 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2495 ] - [ DEBUG ]  Autowiring by type from bean name 'tbOrderMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2496 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbOrderMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2509 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2510 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2511 ] - [ DEBUG ]  Finished creating instance of bean 'tbOrderMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2511 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2512 ] - [ DEBUG ]  Autowiring by type from bean name 'tbOrderItemMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2513 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbOrderItemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2524 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2525 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2526 ] - [ DEBUG ]  Finished creating instance of bean 'tbOrderItemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2526 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2527 ] - [ DEBUG ]  Autowiring by type from bean name 'tbItemParamMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2527 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbItemParamMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2540 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2541 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2541 ] - [ DEBUG ]  Finished creating instance of bean 'tbItemParamMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2542 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2542 ] - [ DEBUG ]  Autowiring by type from bean name 'tbItemParamItemMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2543 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbItemParamItemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2554 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2555 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2556 ] - [ DEBUG ]  Finished creating instance of bean 'tbItemParamItemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2556 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2556 ] - [ DEBUG ]  Autowiring by type from bean name 'tbItemMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2557 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbItemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2568 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2568 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2569 ] - [ DEBUG ]  Finished creating instance of bean 'tbItemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2569 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2570 ] - [ DEBUG ]  Autowiring by type from bean name 'tbItemDescMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2570 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbItemDescMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2581 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2581 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2582 ] - [ DEBUG ]  Finished creating instance of bean 'tbItemDescMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2582 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2582 ] - [ DEBUG ]  Autowiring by type from bean name 'tbItemCatMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2583 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbItemCatMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2592 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2593 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2593 ] - [ DEBUG ]  Finished creating instance of bean 'tbItemCatMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2594 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2594 ] - [ DEBUG ]  Autowiring by type from bean name 'tbContentMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2595 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbContentMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2606 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2606 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2606 ] - [ DEBUG ]  Finished creating instance of bean 'tbContentMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2607 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2607 ] - [ DEBUG ]  Autowiring by type from bean name 'tbContentCategoryMapper' via property 'sqlSessionFactory' to bean named 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2608 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'tbContentCategoryMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2616 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2617 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2617 ] - [ DEBUG ]  Finished creating instance of bean 'tbContentCategoryMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2617 ] - [ DEBUG ]  Returning cached instance of singleton bean 'itemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2619 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2619 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2621 ] - [ DEBUG ]  Autowiring by type from bean name 'itemServiceImpl' to bean named 'itemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2622 ] - [ DEBUG ]  Processing injected element of bean 'itemServiceImpl': AutowiredFieldElement for private org.apache.solr.client.solrj.impl.HttpSolrServer com.taotao.search.service.ItemServiceImpl.httpSolrServer
+2018-03-26 22:14:23  [ localhost-startStop-1:2622 ] - [ DEBUG ]  Creating shared instance of singleton bean 'httpSolrServer'
+2018-03-26 22:14:23  [ localhost-startStop-1:2622 ] - [ DEBUG ]  Creating instance of bean 'httpSolrServer'
+2018-03-26 22:14:23  [ localhost-startStop-1:2622 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2644 ] - [ DEBUG ]  Creating new http client, config:maxConnections=128&maxConnectionsPerHost=32&followRedirects=false
+2018-03-26 22:14:23  [ localhost-startStop-1:2787 ] - [ DEBUG ]  Eagerly caching bean 'httpSolrServer' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:2790 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2791 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2794 ] - [ DEBUG ]  Finished creating instance of bean 'httpSolrServer'
+2018-03-26 22:14:23  [ localhost-startStop-1:2794 ] - [ DEBUG ]  Autowiring by type from bean name 'itemServiceImpl' to bean named 'httpSolrServer'
+2018-03-26 22:14:23  [ localhost-startStop-1:2795 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2795 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2796 ] - [ DEBUG ]  Creating shared instance of singleton bean 'txAdvice'
+2018-03-26 22:14:23  [ localhost-startStop-1:2797 ] - [ DEBUG ]  Creating instance of bean 'txAdvice'
+2018-03-26 22:14:23  [ localhost-startStop-1:2798 ] - [ DEBUG ]  Eagerly caching bean 'txAdvice' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:2824 ] - [ DEBUG ]  Creating shared instance of singleton bean 'transactionManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:2824 ] - [ DEBUG ]  Creating instance of bean 'transactionManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:2825 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2828 ] - [ DEBUG ]  Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:2831 ] - [ DEBUG ]  Returning cached instance of singleton bean 'dataSource'
+2018-03-26 22:14:23  [ localhost-startStop-1:2831 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'transactionManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:2832 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2832 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2834 ] - [ DEBUG ]  Finished creating instance of bean 'transactionManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:2834 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#7cebbfcb'
+2018-03-26 22:14:23  [ localhost-startStop-1:2835 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2839 ] - [ DEBUG ]  Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-03-26 22:14:23  [ localhost-startStop-1:2839 ] - [ DEBUG ]  Adding transactional method [insert*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-03-26 22:14:23  [ localhost-startStop-1:2840 ] - [ DEBUG ]  Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-03-26 22:14:23  [ localhost-startStop-1:2840 ] - [ DEBUG ]  Adding transactional method [create*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-03-26 22:14:23  [ localhost-startStop-1:2840 ] - [ DEBUG ]  Adding transactional method [delete*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-03-26 22:14:23  [ localhost-startStop-1:2841 ] - [ DEBUG ]  Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+2018-03-26 22:14:23  [ localhost-startStop-1:2841 ] - [ DEBUG ]  Adding transactional method [find*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2018-03-26 22:14:23  [ localhost-startStop-1:2841 ] - [ DEBUG ]  Adding transactional method [select*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2018-03-26 22:14:23  [ localhost-startStop-1:2842 ] - [ DEBUG ]  Adding transactional method [get*] with attribute [PROPAGATION_SUPPORTS,ISOLATION_DEFAULT,readOnly]
+2018-03-26 22:14:23  [ localhost-startStop-1:2842 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2842 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2843 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#7cebbfcb'
+2018-03-26 22:14:23  [ localhost-startStop-1:2844 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'txAdvice'
+2018-03-26 22:14:23  [ localhost-startStop-1:2844 ] - [ DEBUG ]  Finished creating instance of bean 'txAdvice'
+2018-03-26 22:14:23  [ localhost-startStop-1:2850 ] - [ DEBUG ]  Creating implicit proxy for bean 'itemServiceImpl' with 0 common interceptors and 2 specific interceptors
+2018-03-26 22:14:23  [ localhost-startStop-1:2851 ] - [ DEBUG ]  Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.taotao.search.service.ItemServiceImpl@4f3af1cd]
+2018-03-26 22:14:23  [ localhost-startStop-1:2854 ] - [ DEBUG ]  Finished creating instance of bean 'itemServiceImpl'
+2018-03-26 22:14:23  [ localhost-startStop-1:2854 ] - [ DEBUG ]  Returning cached instance of singleton bean 'httpSolrServer'
+2018-03-26 22:14:23  [ localhost-startStop-1:2854 ] - [ DEBUG ]  Returning cached instance of singleton bean 'transactionManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:2854 ] - [ DEBUG ]  Returning cached instance of singleton bean 'txAdvice'
+2018-03-26 22:14:23  [ localhost-startStop-1:2855 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-03-26 22:14:23  [ localhost-startStop-1:2855 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:2856 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:2856 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbContentCategoryMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2856 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbContentMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2856 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbItemCatMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2856 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbItemDescMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2857 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbItemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2857 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbItemParamItemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2857 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbItemParamMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2857 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbOrderItemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2858 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbOrderMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2858 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbOrderShippingMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2858 ] - [ DEBUG ]  Returning cached instance of singleton bean 'tbUserMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2858 ] - [ DEBUG ]  Returning cached instance of singleton bean 'itemMapper'
+2018-03-26 22:14:23  [ localhost-startStop-1:2860 ] - [ DEBUG ]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@26d10797]
+2018-03-26 22:14:23  [ localhost-startStop-1:2860 ] - [ DEBUG ]  Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:2861 ] - [ DEBUG ]  Returning cached instance of singleton bean 'sqlSessionFactory'
+2018-03-26 22:14:23  [ localhost-startStop-1:2862 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2018-03-26 22:14:23  [ localhost-startStop-1:2863 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2018-03-26 22:14:23  [ localhost-startStop-1:2863 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+2018-03-26 22:14:23  [ localhost-startStop-1:2863 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2018-03-26 22:14:23  [ localhost-startStop-1:2864 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2018-03-26 22:14:23  [ localhost-startStop-1:2864 ] - [ DEBUG ]  Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2018-03-26 22:14:23  [ localhost-startStop-1:2864 ] - [ DEBUG ]  JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2018-03-26 22:14:23  [ localhost-startStop-1:2865 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-03-26 22:14:23  [ localhost-startStop-1:2865 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-03-26 22:14:23  [ localhost-startStop-1:2865 ] - [ DEBUG ]  Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-03-26 22:14:23  [ localhost-startStop-1:2865 ] - [ DEBUG ]  Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2018-03-26 22:14:23  [ localhost-startStop-1:2866 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2864 ms
+2018-03-26 22:14:23  [ localhost-startStop-1:2868 ] - [ DEBUG ]  Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2868 ] - [ DEBUG ]  Adding [servletContextInitParams] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2869 ] - [ DEBUG ]  Adding [jndiProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2869 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2870 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2870 ] - [ DEBUG ]  Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2018-03-26 22:14:23  [ localhost-startStop-1:2870 ] - [ DEBUG ]  Initializing filter 'CharacterEncodingFilter'
+2018-03-26 22:14:23  [ localhost-startStop-1:2874 ] - [ DEBUG ]  Filter 'CharacterEncodingFilter' configured successfully
+2018-03-26 22:14:23  [ localhost-startStop-1:2879 ] - [ DEBUG ]  Initializing servlet 'taotao-search'
+2018-03-26 22:14:23  [ localhost-startStop-1:2880 ] - [ DEBUG ]  Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2881 ] - [ DEBUG ]  Adding [servletContextInitParams] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2881 ] - [ DEBUG ]  Adding [jndiProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2881 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2881 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2882 ] - [ DEBUG ]  Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+2018-03-26 22:14:23  [ localhost-startStop-1:2887 ] - [ INFO ]  FrameworkServlet 'taotao-search': initialization started
+2018-03-26 22:14:23  [ localhost-startStop-1:2888 ] - [ DEBUG ]  Servlet with name 'taotao-search' will try to create custom WebApplicationContext context of class 'org.springframework.web.context.support.XmlWebApplicationContext', using parent context [Root WebApplicationContext: startup date [Mon Mar 26 22:14:20 CST 2018]; root of context hierarchy]
+2018-03-26 22:14:23  [ localhost-startStop-1:2888 ] - [ DEBUG ]  Searching for key 'spring.profiles.active' in [servletConfigInitParams]
+2018-03-26 22:14:23  [ localhost-startStop-1:2888 ] - [ DEBUG ]  Searching for key 'spring.profiles.active' in [servletContextInitParams]
+2018-03-26 22:14:23  [ localhost-startStop-1:2889 ] - [ DEBUG ]  Searching for key 'spring.profiles.active' in [jndiProperties]
+2018-03-26 22:14:23  [ localhost-startStop-1:2889 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+2018-03-26 22:14:23  [ localhost-startStop-1:2890 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active] is not bound in this Context. Unable to find [spring.profiles.active].
+2018-03-26 22:14:23  [ localhost-startStop-1:2890 ] - [ DEBUG ]  Looking up JNDI object with name [spring.profiles.active]
+2018-03-26 22:14:23  [ localhost-startStop-1:2890 ] - [ DEBUG ]  JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active] is not bound in this Context. Unable to find [spring.profiles.active].. Returning null.
+2018-03-26 22:14:23  [ localhost-startStop-1:2891 ] - [ DEBUG ]  Searching for key 'spring.profiles.active' in [systemProperties]
+2018-03-26 22:14:23  [ localhost-startStop-1:2891 ] - [ DEBUG ]  Searching for key 'spring.profiles.active' in [systemEnvironment]
+2018-03-26 22:14:23  [ localhost-startStop-1:2891 ] - [ DEBUG ]  Could not find key 'spring.profiles.active' in any property source. Returning [null]
+2018-03-26 22:14:23  [ localhost-startStop-1:2892 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+2018-03-26 22:14:23  [ localhost-startStop-1:2892 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [servletContextInitParams]
+2018-03-26 22:14:23  [ localhost-startStop-1:2892 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [jndiProperties]
+2018-03-26 22:14:23  [ localhost-startStop-1:2892 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+2018-03-26 22:14:23  [ localhost-startStop-1:2893 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].
+2018-03-26 22:14:23  [ localhost-startStop-1:2893 ] - [ DEBUG ]  Looking up JNDI object with name [spring.profiles.default]
+2018-03-26 22:14:23  [ localhost-startStop-1:2893 ] - [ DEBUG ]  JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].. Returning null.
+2018-03-26 22:14:23  [ localhost-startStop-1:2894 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [systemProperties]
+2018-03-26 22:14:23  [ localhost-startStop-1:2894 ] - [ DEBUG ]  Searching for key 'spring.profiles.default' in [systemEnvironment]
+2018-03-26 22:14:23  [ localhost-startStop-1:2894 ] - [ DEBUG ]  Could not find key 'spring.profiles.default' in any property source. Returning [null]
+2018-03-26 22:14:23  [ localhost-startStop-1:2896 ] - [ DEBUG ]  Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2018-03-26 22:14:23  [ localhost-startStop-1:2896 ] - [ DEBUG ]  Replacing [servletConfigInitParams] PropertySource with [servletConfigInitParams]
+2018-03-26 22:14:23  [ localhost-startStop-1:2897 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'taotao-search-servlet': startup date [Mon Mar 26 22:14:23 CST 2018]; parent: Root WebApplicationContext
+2018-03-26 22:14:23  [ localhost-startStop-1:2898 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2898 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:2899 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-03-26 22:14:23  [ localhost-startStop-1:2899 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring/springmvc.xml]
+2018-03-26 22:14:23  [ localhost-startStop-1:2900 ] - [ DEBUG ]  Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-03-26 22:14:23  [ localhost-startStop-1:2901 ] - [ DEBUG ]  Loading schema mappings from [META-INF/spring.schemas]
+2018-03-26 22:14:23  [ localhost-startStop-1:2904 ] - [ DEBUG ]  Loaded schema mappings: {http://mybatis.org/schema/mybatis-spring-1.2.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://mybatis.org/schema/mybatis-spring.xsd=org/mybatis/spring/config/mybatis-spring-1.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+2018-03-26 22:14:23  [ localhost-startStop-1:2906 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+2018-03-26 22:14:23  [ localhost-startStop-1:2910 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-3.2.xsd
+2018-03-26 22:14:23  [ localhost-startStop-1:2912 ] - [ DEBUG ]  Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.2.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.2.xsd
+2018-03-26 22:14:23  [ localhost-startStop-1:3188 ] - [ DEBUG ]  Loading bean definitions
+2018-03-26 22:14:23  [ localhost-startStop-1:3191 ] - [ DEBUG ]  Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://mybatis.org/schema/mybatis-spring=org.mybatis.spring.config.NamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-03-26 22:14:23  [ localhost-startStop-1:3192 ] - [ DEBUG ]  Adding [systemProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:3192 ] - [ DEBUG ]  Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:3192 ] - [ DEBUG ]  Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-03-26 22:14:23  [ localhost-startStop-1:3193 ] - [ DEBUG ]  JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2018-03-26 22:14:23  [ localhost-startStop-1:3193 ] - [ DEBUG ]  JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2018-03-26 22:14:23  [ localhost-startStop-1:3194 ] - [ DEBUG ]  Looking for matching resources in directory tree [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\controller]
+2018-03-26 22:14:23  [ localhost-startStop-1:3194 ] - [ DEBUG ]  Searching directory [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\controller] for files matching pattern [D:/eclipse/workspace/taotao-search/target/classes/com/taotao/search/controller/**/*.class]
+2018-03-26 22:14:23  [ localhost-startStop-1:3195 ] - [ DEBUG ]  Resolved location pattern [classpath*:com/taotao/search/controller/**/*.class] to resources [file [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\controller\ImPortSolr.class]]
+2018-03-26 22:14:23  [ localhost-startStop-1:3198 ] - [ DEBUG ]  Identified candidate component class: file [D:\eclipse\workspace\taotao-search\target\classes\com\taotao\search\controller\ImPortSolr.class]
+2018-03-26 22:14:23  [ localhost-startStop-1:3218 ] - [ DEBUG ]  Loaded 17 bean definitions from location pattern [classpath:spring/springmvc.xml]
+2018-03-26 22:14:23  [ localhost-startStop-1:3218 ] - [ DEBUG ]  Bean factory for WebApplicationContext for namespace 'taotao-search-servlet': org.springframework.beans.factory.support.DefaultListableBeanFactory@7618c081: defining beans [imPortSolr,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@641683d0
+2018-03-26 22:14:23  [ localhost-startStop-1:3221 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3222 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3222 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3222 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3238 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3238 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3239 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3239 ] - [ DEBUG ]  Looking for matching resources in directory tree [D:\eclipse\workspace\taotao-search\target\classes\properties]
+2018-03-26 22:14:23  [ localhost-startStop-1:3240 ] - [ DEBUG ]  Searching directory [D:\eclipse\workspace\taotao-search\target\classes\properties] for files matching pattern [D:/eclipse/workspace/taotao-search/target/classes/properties/*.properties]
+2018-03-26 22:14:23  [ localhost-startStop-1:3240 ] - [ DEBUG ]  Resolved location pattern [classpath:properties/*.properties] to resources [file [D:\eclipse\workspace\taotao-search\target\classes\properties\db.properties], file [D:\eclipse\workspace\taotao-search\target\classes\properties\resource.properties]]
+2018-03-26 22:14:23  [ localhost-startStop-1:3241 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3241 ] - [ DEBUG ]  Adding [environmentProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:3241 ] - [ INFO ]  Loading properties file from file [D:\eclipse\workspace\taotao-search\target\classes\properties\db.properties]
+2018-03-26 22:14:23  [ localhost-startStop-1:3242 ] - [ INFO ]  Loading properties file from file [D:\eclipse\workspace\taotao-search\target\classes\properties\resource.properties]
+2018-03-26 22:14:23  [ localhost-startStop-1:3243 ] - [ DEBUG ]  Adding [localProperties] PropertySource with lowest search precedence
+2018-03-26 22:14:23  [ localhost-startStop-1:3243 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3244 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3244 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-03-26 22:14:23  [ localhost-startStop-1:3244 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3245 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3245 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3245 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3245 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3246 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3246 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3246 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3246 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3247 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3247 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3247 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3247 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3248 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3248 ] - [ DEBUG ]  Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@1c9c86db]
+2018-03-26 22:14:23  [ localhost-startStop-1:3248 ] - [ DEBUG ]  Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2748a0b0]
+2018-03-26 22:14:23  [ localhost-startStop-1:3249 ] - [ DEBUG ]  Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@29970a1a]
+2018-03-26 22:14:23  [ localhost-startStop-1:3249 ] - [ INFO ]  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7618c081: defining beans [imPortSolr,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@641683d0
+2018-03-26 22:14:23  [ localhost-startStop-1:3250 ] - [ DEBUG ]  Creating shared instance of singleton bean 'imPortSolr'
+2018-03-26 22:14:23  [ localhost-startStop-1:3250 ] - [ DEBUG ]  Creating instance of bean 'imPortSolr'
+2018-03-26 22:14:23  [ localhost-startStop-1:3253 ] - [ DEBUG ]  Registered injected element on class [com.taotao.search.controller.ImPortSolr]: AutowiredFieldElement for private com.taotao.search.service.ItemService com.taotao.search.controller.ImPortSolr.itemService
+2018-03-26 22:14:23  [ localhost-startStop-1:3253 ] - [ DEBUG ]  Eagerly caching bean 'imPortSolr' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3255 ] - [ DEBUG ]  Processing injected element of bean 'imPortSolr': AutowiredFieldElement for private com.taotao.search.service.ItemService com.taotao.search.controller.ImPortSolr.itemService
+2018-03-26 22:14:23  [ localhost-startStop-1:3256 ] - [ DEBUG ]  Returning cached instance of singleton bean 'itemServiceImpl'
+2018-03-26 22:14:23  [ localhost-startStop-1:3256 ] - [ DEBUG ]  Autowiring by type from bean name 'imPortSolr' to bean named 'itemServiceImpl'
+2018-03-26 22:14:23  [ localhost-startStop-1:3257 ] - [ DEBUG ]  Finished creating instance of bean 'imPortSolr'
+2018-03-26 22:14:23  [ localhost-startStop-1:3257 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3257 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3257 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3258 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-03-26 22:14:23  [ localhost-startStop-1:3258 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3258 ] - [ DEBUG ]  Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:3258 ] - [ DEBUG ]  Creating instance of bean 'mvcContentNegotiationManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:3259 ] - [ DEBUG ]  Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3262 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'mvcContentNegotiationManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:3265 ] - [ DEBUG ]  Finished creating instance of bean 'mvcContentNegotiationManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:3265 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3265 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3267 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3274 ] - [ DEBUG ]  Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:3275 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3276 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3276 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#26ac8d4f'
+2018-03-26 22:14:23  [ localhost-startStop-1:3277 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3277 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3278 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3280 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3298 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3302 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#26ac8d4f'
+2018-03-26 22:14:23  [ localhost-startStop-1:3303 ] - [ DEBUG ]  No property editor [org.springframework.web.context.request.WebRequestInterceptorEditor] found for type org.springframework.web.context.request.WebRequestInterceptor according to 'Editor' suffix convention
+2018-03-26 22:14:23  [ localhost-startStop-1:3304 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.handler.MappedInterceptor#0' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3308 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3309 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3309 ] - [ DEBUG ]  Looking for request mappings in application context: WebApplicationContext for namespace 'taotao-search-servlet': startup date [Mon Mar 26 22:14:23 CST 2018]; parent: Root WebApplicationContext
+2018-03-26 22:14:23  [ localhost-startStop-1:3317 ] - [ INFO ]  Mapped "{[/solr/importAll],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.taotao.commons.pojo.TaotaoResult com.taotao.search.controller.ImPortSolr.insertSolrAll() throws java.lang.Exception
+2018-03-26 22:14:23  [ localhost-startStop-1:3318 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3318 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3319 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3319 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3450 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0' to allow for resolving potential circular references
+2018-03-26 22:14:23  [ localhost-startStop-1:3457 ] - [ DEBUG ]  Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-03-26 22:14:23  [ localhost-startStop-1:3457 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#3c221c00'
+2018-03-26 22:14:23  [ localhost-startStop-1:3461 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+2018-03-26 22:14:23  [ localhost-startStop-1:3462 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#3c221c00'
+2018-03-26 22:14:23  [ localhost-startStop-1:3462 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#27df6301'
+2018-03-26 22:14:23  [ localhost-startStop-1:3466 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#27df6301'
+2018-03-26 22:14:24  [ localhost-startStop-1:3467 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#692a6c34'
+2018-03-26 22:14:24  [ localhost-startStop-1:3470 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#692a6c34'
+2018-03-26 22:14:24  [ localhost-startStop-1:3471 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#68e45a18'
+2018-03-26 22:14:24  [ localhost-startStop-1:3474 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#68e45a18'
+2018-03-26 22:14:24  [ localhost-startStop-1:3474 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#639581b2'
+2018-03-26 22:14:24  [ localhost-startStop-1:3478 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#639581b2'
+2018-03-26 22:14:24  [ localhost-startStop-1:3478 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#2221ae40'
+2018-03-26 22:14:24  [ localhost-startStop-1:3482 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#2221ae40'
+2018-03-26 22:14:24  [ localhost-startStop-1:3483 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#48abe124'
+2018-03-26 22:14:24  [ localhost-startStop-1:3490 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#48abe124'
+2018-03-26 22:14:24  [ localhost-startStop-1:3490 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#5b229d4a'
+2018-03-26 22:14:24  [ localhost-startStop-1:3494 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#5b229d4a'
+2018-03-26 22:14:24  [ localhost-startStop-1:3495 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3511 ] - [ DEBUG ]  Looking for controller advice: WebApplicationContext for namespace 'taotao-search-servlet': startup date [Mon Mar 26 22:14:23 CST 2018]; parent: Root WebApplicationContext
+2018-03-26 22:14:24  [ localhost-startStop-1:3512 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3513 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3513 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3513 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3517 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0' to allow for resolving potential circular references
+2018-03-26 22:14:24  [ localhost-startStop-1:3522 ] - [ DEBUG ]  Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+2018-03-26 22:14:24  [ localhost-startStop-1:3522 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#27df6301#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3523 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#27df6301#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3523 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#692a6c34#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3525 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#692a6c34#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3525 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#68e45a18#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3527 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#68e45a18#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3527 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#639581b2#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3533 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#639581b2#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3534 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#2221ae40#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3536 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#2221ae40#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3536 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#48abe124#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3537 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#48abe124#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3537 ] - [ DEBUG ]  Creating instance of bean '(inner bean)#5b229d4a#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3538 ] - [ DEBUG ]  Finished creating instance of bean '(inner bean)#5b229d4a#1'
+2018-03-26 22:14:24  [ localhost-startStop-1:3540 ] - [ DEBUG ]  Invoking afterPropertiesSet() on bean with name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3540 ] - [ DEBUG ]  Looking for exception mappings: WebApplicationContext for namespace 'taotao-search-servlet': startup date [Mon Mar 26 22:14:23 CST 2018]; parent: Root WebApplicationContext
+2018-03-26 22:14:24  [ localhost-startStop-1:3541 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3541 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3541 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3542 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0' to allow for resolving potential circular references
+2018-03-26 22:14:24  [ localhost-startStop-1:3544 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3545 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3545 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3546 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0' to allow for resolving potential circular references
+2018-03-26 22:14:24  [ localhost-startStop-1:3548 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3548 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-03-26 22:14:24  [ localhost-startStop-1:3549 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-03-26 22:14:24  [ localhost-startStop-1:3549 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' to allow for resolving potential circular references
+2018-03-26 22:14:24  [ localhost-startStop-1:3556 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3557 ] - [ DEBUG ]  Looking for URL mappings in application context: WebApplicationContext for namespace 'taotao-search-servlet': startup date [Mon Mar 26 22:14:23 CST 2018]; parent: Root WebApplicationContext
+2018-03-26 22:14:24  [ localhost-startStop-1:3557 ] - [ DEBUG ]  Rejected bean name 'imPortSolr': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3558 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3558 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3558 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.internalRequiredAnnotationProcessor': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3558 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.internalCommonAnnotationProcessor': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3559 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3559 ] - [ DEBUG ]  Rejected bean name 'mvcContentNegotiationManager': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3559 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3559 ] - [ DEBUG ]  Rejected bean name 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3559 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3560 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.handler.MappedInterceptor#0': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3560 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3560 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3560 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3561 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3561 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3561 ] - [ DEBUG ]  Rejected bean name 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3561 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3562 ] - [ DEBUG ]  Rejected bean name 'environment': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3562 ] - [ DEBUG ]  Rejected bean name 'systemProperties': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3562 ] - [ DEBUG ]  Rejected bean name 'systemEnvironment': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3562 ] - [ DEBUG ]  Rejected bean name 'servletConfig': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3563 ] - [ DEBUG ]  Rejected bean name 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3563 ] - [ DEBUG ]  Rejected bean name 'messageSource': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3563 ] - [ DEBUG ]  Rejected bean name 'applicationEventMulticaster': no URL paths identified
+2018-03-26 22:14:24  [ localhost-startStop-1:3563 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-03-26 22:14:24  [ localhost-startStop-1:3564 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-03-26 22:14:24  [ localhost-startStop-1:3564 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-03-26 22:14:24  [ localhost-startStop-1:3564 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter' to allow for resolving potential circular references
+2018-03-26 22:14:24  [ localhost-startStop-1:3566 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-03-26 22:14:24  [ localhost-startStop-1:3566 ] - [ DEBUG ]  Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-03-26 22:14:24  [ localhost-startStop-1:3566 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-03-26 22:14:24  [ localhost-startStop-1:3567 ] - [ DEBUG ]  Eagerly caching bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter' to allow for resolving potential circular references
+2018-03-26 22:14:24  [ localhost-startStop-1:3568 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-03-26 22:14:24  [ localhost-startStop-1:3568 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-03-26 22:14:24  [ localhost-startStop-1:3569 ] - [ DEBUG ]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5fd49508]
+2018-03-26 22:14:24  [ localhost-startStop-1:3569 ] - [ DEBUG ]  Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-03-26 22:14:24  [ localhost-startStop-1:3570 ] - [ DEBUG ]  Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
+2018-03-26 22:14:24  [ localhost-startStop-1:3570 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-03-26 22:14:24  [ localhost-startStop-1:3572 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-03-26 22:14:24  [ localhost-startStop-1:3572 ] - [ DEBUG ]  Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@21653a84]
+2018-03-26 22:14:24  [ localhost-startStop-1:3573 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-03-26 22:14:24  [ localhost-startStop-1:3575 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-03-26 22:14:24  [ localhost-startStop-1:3576 ] - [ DEBUG ]  Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@1d473ec7]
+2018-03-26 22:14:24  [ localhost-startStop-1:3576 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3576 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+2018-03-26 22:14:24  [ localhost-startStop-1:3577 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3577 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+2018-03-26 22:14:24  [ localhost-startStop-1:3577 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+2018-03-26 22:14:24  [ localhost-startStop-1:3577 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3578 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3578 ] - [ DEBUG ]  Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+2018-03-26 22:14:24  [ localhost-startStop-1:3579 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-03-26 22:14:24  [ localhost-startStop-1:3580 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-03-26 22:14:24  [ localhost-startStop-1:3581 ] - [ DEBUG ]  Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@20bfbf03]
+2018-03-26 22:14:24  [ localhost-startStop-1:3582 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver'
+2018-03-26 22:14:24  [ localhost-startStop-1:3592 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.view.InternalResourceViewResolver'
+2018-03-26 22:14:24  [ localhost-startStop-1:3592 ] - [ DEBUG ]  No ViewResolvers found in servlet 'taotao-search': using default
+2018-03-26 22:14:24  [ localhost-startStop-1:3593 ] - [ DEBUG ]  Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-03-26 22:14:24  [ localhost-startStop-1:3597 ] - [ DEBUG ]  Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-03-26 22:14:24  [ localhost-startStop-1:3597 ] - [ DEBUG ]  Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@18928e5b]
+2018-03-26 22:14:24  [ localhost-startStop-1:3597 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2018-03-26 22:14:24  [ localhost-startStop-1:3598 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2018-03-26 22:14:24  [ localhost-startStop-1:3598 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
+2018-03-26 22:14:24  [ localhost-startStop-1:3598 ] - [ DEBUG ]  Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+2018-03-26 22:14:24  [ localhost-startStop-1:3598 ] - [ DEBUG ]  Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
+2018-03-26 22:14:24  [ localhost-startStop-1:3599 ] - [ DEBUG ]  Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+2018-03-26 22:14:24  [ localhost-startStop-1:3599 ] - [ DEBUG ]  JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
+2018-03-26 22:14:24  [ localhost-startStop-1:3599 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-03-26 22:14:24  [ localhost-startStop-1:3599 ] - [ DEBUG ]  Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-03-26 22:14:24  [ localhost-startStop-1:3600 ] - [ DEBUG ]  Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-03-26 22:14:24  [ localhost-startStop-1:3600 ] - [ DEBUG ]  Published WebApplicationContext of servlet 'taotao-search' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.taotao-search]
+2018-03-26 22:14:24  [ localhost-startStop-1:3600 ] - [ INFO ]  FrameworkServlet 'taotao-search': initialization completed in 712 ms
+2018-03-26 22:14:24  [ localhost-startStop-1:3600 ] - [ DEBUG ]  Servlet 'taotao-search' configured successfully
